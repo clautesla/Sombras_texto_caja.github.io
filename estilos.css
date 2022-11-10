@@ -1,0 +1,26 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.caja{
+    padding: 10px;
+    background-color: hsl(210, 29%, 25%, 0.3);
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    box-shadow: 120px 250px 450px blue;
+
+    /* para la propiedad box-shadow el primer valor de la caja de la sombra se relaciona con el desplazamiento del eje x
+    el segundo valor de la caja de la sombra se relaciona con el desplazamiento del eje y
+    el tercer valor tiene que ver con el difunado del color
+    */
+}
+
+.texto{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 7px 5px 10px red; 
+}
+
